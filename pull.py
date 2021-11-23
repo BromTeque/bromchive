@@ -7,8 +7,11 @@ import logging
 
 # Variables
 getTime = str(int(time.time()))
-outputDirectory = os.path.join("./logs/" + getTime)
+outputFile = os.path.join("./.logs/" + getTime + ".log")
 
 
-logging.basicConfig(filename=getTime+".log", level=logging.INFO)
-
+logging.basicConfig(filename=outputFile, level=logging.DEBUG)
+logging.debug('This message should go to the log file')
+logging.info('So should this')
+logging.warning('And this, too')
+logging.error('And non-ASCII stuff, too, like Øresund and Malmö')
