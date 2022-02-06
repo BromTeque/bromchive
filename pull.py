@@ -5,6 +5,7 @@ import git
 import time
 import logging
 
+
 def main():
     # Variables and initiation
     currentTime = str(int(time.time()))
@@ -43,43 +44,5 @@ def main():
         logging.info("Done pulling")
 
 
-
 if __name__ == "__main__":
     main()
-
-
-
-# cloned_repo = repo.clone_from("./test")
-# assert cloned_repo.__class__ is git.Repo
-# assert git.Repo.init("./test/newRepo").__class__ is git.Repo
-
-
-# with open("./test/repo.tar", "wb") as fp:
-#     repo.archive(fp)
-
-
-
-
-# logging.basicConfig(filename=outputFile, level=logging.DEBUG)
-# logging.debug('This message should go to the log file')
-# logging.info('So should this')
-# logging.warning('And this, too')
-# logging.error('And non-ASCII stuff, too, like Øresund and Malmö')
-# logging.debug('This but a test')
-
-# print("am run")
-
-# repo = git.Repo("/mnt/sdc/Repositories Archive/repositories/anbennar-eu4-fork-public-build")
-# repo = git.Repo("./test")
-# assert not repo.bare
-# repo.config_reader()
-
-
-# # Clone repo
-# cloned_repo = repo.clone("./test")
-# assert cloned_repo.__class__ is git.Repo
-# assert git.Repo.init("./test/newRepo").__class__ is git.Repo
-
-
-# with open("./test/repo.tar", "wb") as fp:
-#     repo.archive(fp)
