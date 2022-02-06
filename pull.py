@@ -1,4 +1,4 @@
-# Automatic git pull for mod repositories via cron
+# Automatic git clone and pull for git repositories to ble deployed with cron
 
 import os
 import git
@@ -7,9 +7,9 @@ import logging
 
 def main():
     # Variables and initiation
-    getTime = str(int(time.time()))
-    logFile = os.path.join('./.logs/' + getTime + '.log')
-    repoDir = os.path.join('./.testing/repo-' + getTime)
+    currentTime = str(int(time.time()))
+    logFile = os.path.join('./.logs/' + currentTime + '.log')
+    reposDir = './.testing/'
     logging.basicConfig(filename=logFile, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
     repoList = []
 
@@ -23,15 +23,25 @@ def main():
         def update(self, op_code, cur_count, max_count=None, message=''):
             logging.debug(self._cur_line)
 
-    # Clone repo
-    if not os.path.isdir(repoDir):
-        logging.info("Cloning: " + repoList[0])
-        repo = git.Repo.clone_from(repoList[0], repoDir, progress=Progress())
-        logging.info("Done cloning")
+    # Clone or pull repo
+    for repo in repoList:
+        # Find repo name
+        repoName = repo.split('.git')[0].split('/')[-1]
+        logging.debug(f"Repo URL: \"{repo}\"")
+        logging.debug(f"Repo Directory name: \"{repoName}\"")
+        # Define directory 
+        repoDir = os.path.join(reposDir + repoName + '-' + currentTime)
+        # Clone if repo doesn't exist
+        if not os.path.isdir(repoDir):
+            logging.info(f"Cloning: \"{repo}\"")
+            repo = git.Repo.clone_from(repo, repoDir, progress=Progress())
+            logging.info("Done cloning")
+        # Pull
+        repo = git.Repo(repoDir)
+        repo = repo.remotes.origin
+        repo.pull()
+        logging.info("Done pulling")
 
-    repo = git.Repo(repoDir)
-    repo = repo.remotes.origin
-    repo.pull()
 
 
 if __name__ == "__main__":

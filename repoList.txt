@@ -5,7 +5,7 @@
 https://github.com/BromTeque/bromchive.git
 
 # Anbennar EU4
-# https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
+https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
 
 # Anbennar CK3
-# https://gitlab.com/anbennar/anbennar-ck3-dev.git
+#https://gitlab.com/anbennar/anbennar-ck3-dev.git
