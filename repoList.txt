@@ -1,0 +1,11 @@
+# HTTPS Clone Links Go Here
+# Comment lines and newlines are ignored, everything else WILL be read
+
+# Example Repo
+https://github.com/BromTeque/bromchive.git
+
+# Anbennar EU4
+https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
+
+# Anbennar CK3
+#https://gitlab.com/anbennar/anbennar-ck3-dev.git
