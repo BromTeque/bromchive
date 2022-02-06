@@ -651,3 +651,5 @@ FodyWeavers.xsd
 
 # Custom .gitignoes
 archive.txt
+.testing
+.logs
