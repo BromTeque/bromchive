@@ -9,8 +9,10 @@ import logging
 def main():
     # Variables and initiation
     currentTime = str(int(time.time()))
+    if not os.path.exists('./.logs'):
+        os.makedirs('./.logs')
     logFile = os.path.join('./.logs/' + currentTime + '.log')
-    reposDir = './.testing/'
+    reposDir = '/mnt/sdc/Repositories Archive/repositories'
     logging.basicConfig(filename=logFile, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
     repoList = []
 
@@ -31,7 +33,7 @@ def main():
         logging.debug(f"Repo URL: \"{repo}\"")
         logging.debug(f"Repo Directory name: \"{repoName}\"")
         # Define directory 
-        repoDir = os.path.join(reposDir + repoName + '-' + currentTime)
+        repoDir = os.path.join(reposDir + '/' + repoName)
         # Clone if repo doesn't exist
         if not os.path.isdir(repoDir):
             logging.info(f"Cloning: \"{repo}\"")
@@ -40,8 +42,9 @@ def main():
         # Pull
         repo = git.Repo(repoDir)
         repo = repo.remotes.origin
-        repo.pull()
+        repo.pull(progress=Progress())
         logging.info("Done pulling")
+    logging.info("End of Script")
 
 
 if __name__ == "__main__":

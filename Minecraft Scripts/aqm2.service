@@ -1,0 +1,31 @@
+[Unit]
+Description=AQM2 Minecraft Server
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=dionysus
+WorkingDirectory=~
+TimeoutSec=120
+
+ExecStart=/bin/bash -c \
+    'tmux new-session -d -s aqm2 \
+    && tmux send-keys -t aqm2 "cd ~/aqm2_server/" Enter \
+    && tmux send-keys -t aqm2 "./startserver.sh" Enter'
+
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "say Server Shutting Down in 10 seconds" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 7'
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "say 3" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 1'
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "say 2" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 1'
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "say 1" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 1'
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "say Goodbye" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 1'
+ExecStop=/bin/bash -c 'tmux send-keys -t aqm2 "stop" Enter'
+ExecStop=/bin/bash -c '/bin/sleep 60'
+ExecStop=/bin/bash -c 'tmux kill-session -t aqm2'
+
+[Install]
+WantedBy=multi-user.target
