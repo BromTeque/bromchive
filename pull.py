@@ -8,6 +8,10 @@ import logging
 
 def main():
     # Variables and initiation
+    workDir = '/mnt/sdc/Repositories Archive/bromchive'
+    # Change working directory if wrong
+    if os.getcwd != workDir:
+        os.chdir(workDir)
     currentTime = str(int(time.time()))
     if not os.path.exists('./.logs'):
         os.makedirs('./.logs')
