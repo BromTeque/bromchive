@@ -8,7 +8,7 @@ import logging
 
 def main():
     # Variables and initiation
-    workDir = '/mnt/sdc/Repositories Archive/bromchive'
+    workDir = '/mnt/ata-ST12000NM001G-2MV103_ZL2B7EE1/Repositories Archive/bromchive'
     # Change working directory if wrong
     if os.getcwd != workDir:
         os.chdir(workDir)
@@ -16,7 +16,7 @@ def main():
     if not os.path.exists('./.logs'):
         os.makedirs('./.logs')
     logFile = os.path.join('./.logs/' + currentTime + '.log')
-    reposDir = '/mnt/sdc/Repositories Archive/repositories'
+    reposDir = '/mnt/ata-ST12000NM001G-2MV103_ZL2B7EE1/Repositories Archive/repositories'
     logging.basicConfig(filename=logFile, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
     repoList = []
 
