@@ -11,16 +11,19 @@ https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
 https://gitlab.com/anbennar/anbennar-ck3-dev.git
 
 # Imperium Universalis EU4
-https://github.com/The-Triumvirate/Imperium-Universalis
+https://github.com/The-Triumvirate/Imperium-Universalis.git
 
 # Road to 1956 Beta HOI4
-https://github.com/deliciousmods/1956_beta
+https://github.com/deliciousmods/1956_beta.git
 
 # Cold War Iron Curtain HOI4
-https://github.com/swf541/ColdWarIronCurtain
+https://github.com/swf541/ColdWarIronCurtain.git
 
 # End of a New Beginning HOI4
-https://github.com/team-eoanb/EoaNB
+https://github.com/team-eoanb/EoaNB.git
 
 # TheFrenchGhostys Ultimate YouTube-DL Scripts Collection
-https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection
+https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection.git
+
+# Avatar - Four Nations Restored CK2
+https://github.com/Rystic/ATLA-restored.git
