@@ -4,11 +4,14 @@
 # Example Repo
 https://github.com/BromTeque/bromchive.git
 
-# Anbennar EU4
-https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
+# Avatar - Four Nations Restored CK2
+https://github.com/Rystic/ATLA-restored.git
 
 # Anbennar CK3
 https://gitlab.com/anbennar/anbennar-ck3-dev.git
+
+# Anbennar EU4
+https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
 
 # Imperium Universalis EU4
 https://github.com/The-Triumvirate/Imperium-Universalis.git
@@ -22,11 +25,23 @@ https://github.com/swf541/ColdWarIronCurtain.git
 # End of a New Beginning HOI4
 https://github.com/team-eoanb/EoaNB.git
 
+# YT-DLP
+https://github.com/yt-dlp/yt-dlp.git
+
 # TheFrenchGhostys Ultimate YouTube-DL Scripts Collection
 https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection.git
 
-# Avatar - Four Nations Restored CK2
-https://github.com/Rystic/ATLA-restored.git
+# Linux GSM
+https://github.com/GameServerManagers/LinuxGSM.git
 
 # Unix History Repository
 https://github.com/dspinellis/unix-history-repo.git
+
+# Linux
+https://github.com/torvalds/linux.git
+
+# Unofficial Homestuck Collection
+https://github.com/Bambosh/unofficial-homestuck-collection.git
+
+# Tessercat OCR
+https://github.com/tesseract-ocr/tesseract.git
