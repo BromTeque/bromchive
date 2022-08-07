@@ -23,7 +23,8 @@ https://github.com/deliciousmods/1956_beta.git
 https://github.com/swf541/ColdWarIronCurtain.git
 
 # End of a New Beginning HOI4
-https://github.com/team-eoanb/EoaNB.git
+# https://github.com/team-eoanb/EoaNB.git (OLD)
+https://github.com/EoaNB-Team/EoaNB.git
 
 # YT-DLP
 https://github.com/yt-dlp/yt-dlp.git
