@@ -29,8 +29,35 @@ https://github.com/EoaNB-Team/EoaNB.git
 # YT-DLP
 https://github.com/yt-dlp/yt-dlp.git
 
+# YT-DLC
+https://github.com/blackjack4494/yt-dlc.git
+
+# YouTube-DL
+https://github.com/ytdl-org/youtube-dl.git
+
 # TheFrenchGhostys Ultimate YouTube-DL Scripts Collection
 https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection.git
+
+# Unofficial Homestuck Collection
+https://github.com/Bambosh/unofficial-homestuck-collection.git
+
+# Tessercat OCR
+https://github.com/tesseract-ocr/tesseract.git
+
+# PlayStation 4 emulator GPCS4
+https://github.com/Inori/GPCS4.git
+
+# PlayStation 4 emulator orbital
+https://github.com/AlexAltea/orbital.git
+
+# PlayStation 4 emulator PS4DELTA
+https://github.com/Force67/ps4delta.git
+
+# Xbox 360 emulator xenia
+https://github.com/xenia-project/xenia.git
+
+# GTA 3 and Vice City Reversed Engineered Source Code
+https://github.com/td512/re3.git
 
 # Linux GSM
 https://github.com/GameServerManagers/LinuxGSM.git
@@ -38,11 +65,5 @@ https://github.com/GameServerManagers/LinuxGSM.git
 # Unix History Repository
 https://github.com/dspinellis/unix-history-repo.git
 
-# Linux
+# Linux (Keep at bottom)
 https://github.com/torvalds/linux.git
-
-# Unofficial Homestuck Collection
-https://github.com/Bambosh/unofficial-homestuck-collection.git
-
-# Tessercat OCR
-https://github.com/tesseract-ocr/tesseract.git
