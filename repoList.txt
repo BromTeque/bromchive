@@ -4,6 +4,9 @@
 # Example Repo
 https://github.com/BromTeque/bromchive.git
 
+# Irony Mod Manager for Paradox Games
+https://github.com/bcssov/IronyModManager.git
+
 # Avatar - Four Nations Restored CK2
 https://github.com/Rystic/ATLA-restored.git
 
