@@ -62,6 +62,9 @@ https://github.com/xenia-project/xenia.git
 # GTA 3 and Vice City Reversed Engineered Source Code
 https://github.com/td512/re3.git
 
+# balenaEtcher
+https://github.com/balena-io/etcher.git
+
 # Linux GSM
 https://github.com/GameServerManagers/LinuxGSM.git
 
