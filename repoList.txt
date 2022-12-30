@@ -29,6 +29,9 @@ https://github.com/swf541/ColdWarIronCurtain.git
 # https://github.com/team-eoanb/EoaNB.git (OLD)
 https://github.com/EoaNB-Team/EoaNB.git
 
+# Avatar HOI4
+https://github.com/Hermerico/avatar.git
+
 # YT-DLP
 https://github.com/yt-dlp/yt-dlp.git
 
