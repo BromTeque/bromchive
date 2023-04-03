@@ -19,6 +19,9 @@ https://bitbucket.org/JayBean/anbennar-eu4-fork-public-build.git
 # Imperium Universalis EU4
 https://github.com/The-Triumvirate/Imperium-Universalis.git
 
+# Elder Scrolls EU4
+https://github.com/Aetherum17/Elder-Scrolls-Universalis-1-30.git
+
 # Road to 1956 Beta HOI4
 https://github.com/deliciousmods/1956_beta.git
 
@@ -32,6 +35,21 @@ https://github.com/EoaNB-Team/EoaNB.git
 # Avatar HOI4
 https://github.com/Hermerico/avatar.git
 
+# Rimworld Multiplayer mod
+https://github.com/rwmt/Multiplayer.git
+
+# Cyberpunk 2077 tweaks, hacks and scripting framework
+https://github.com/yamashi/CyberEngineTweaks.git
+
+# Cyberpunk 2077 CP77Tools
+https://github.com/WolvenKit/CP77Tools.git
+
+# Cyberpunk 2077 WolvenKit
+https://github.com/WolvenKit/WolvenKit.git
+
+# The Powder Toy
+https://github.com/The-Powder-Toy/The-Powder-Toy.git
+
 # YT-DLP
 https://github.com/yt-dlp/yt-dlp.git
 
@@ -44,11 +62,23 @@ https://github.com/ytdl-org/youtube-dl.git
 # TheFrenchGhostys Ultimate YouTube-DL Scripts Collection
 https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection.git
 
+# TFGUYSC fork
+https://github.com/defder-su/SaveMedia.git
+
 # Unofficial Homestuck Collection
 https://github.com/Bambosh/unofficial-homestuck-collection.git
 
 # Tessercat OCR
 https://github.com/tesseract-ocr/tesseract.git
+
+# Flask
+https://github.com/pallets/flask.git
+
+# PlayStation 4 emulator/compatibility layer
+https://github.com/red-prig/fpPS4.git
+
+# PlayStation 4 emulator Obliteration
+https://github.com/obhq/obliteration.git
 
 # PlayStation 4 emulator GPCS4
 https://github.com/Inori/GPCS4.git
@@ -65,6 +95,153 @@ https://github.com/xenia-project/xenia.git
 # GTA 3 and Vice City Reversed Engineered Source Code
 # GONE
 #https://github.com/td512/re3.git
+
+# Spacebarchat Formerly Fosscord 
+https://github.com/spacebarchat/spacebarchat.git
+
+# Qballjos Portainer Templates
+https://github.com/Qballjos/portainer_templates.git
+
+# SelfhostedPro Portainer Templates
+https://github.com/SelfhostedPro/selfhosted_templates.git
+
+# Pi-hosted
+https://github.com/novaspirit/pi-hosted.git
+
+# Internet Speed Logger
+https://github.com/brennentsmith/internet-speed-logger.git
+
+# Pitikapp Plugin Library
+https://github.com/dydil/PitikappPluginLibrary.git
+
+# Spritjakt
+https://github.com/matslb/Spritjakt.no.git
+
+# Finalmouse Starlight-12 Firmware Utility
+https://github.com/cn46375/FinalmouseFirmwareUtility.git
+
+# Rem0o FanControl
+https://github.com/Rem0o/FanControl.Releases.git
+
+# SCRCPY
+https://github.com/Genymobile/scrcpy.git
+
+# Minecraft Server Starter
+https://github.com/BloodyMods/ServerStarter.git
+
+# Minecraft Multithreaded Server for Redstone
+https://github.com/MCHPR/MCHPRS.git
+
+# Minecraft GTNewHorizons
+https://github.com/GTNewHorizons/GT-New-Horizons-Modpack.git
+
+# Minecraft GTNH Thermos
+https://github.com/GTNewHorizons/Thermos.git
+
+# Minecraft Thermos
+https://github.com/MCImaginarium/Thermos.git
+
+# Terraria tModLoader
+https://github.com/tModLoader/tModLoader.git
+
+# Terraria TShock
+https://github.com/Pryaxis/TShock.git
+
+# Dashlane Repos
+https://github.com/Dashlane/dashlane-cli.git
+https://github.com/Dashlane/node-stripe.git
+https://github.com/Dashlane/redux-diff-logger.git
+https://github.com/Dashlane/atom-linter-coffee-variables.git
+https://github.com/Dashlane/material-ui.git
+https://github.com/Dashlane/karma-bamboo-reporter.git
+https://github.com/Dashlane/TsMonad.git
+https://github.com/Dashlane/css-variables-loader.git
+https://github.com/Dashlane/forge.git
+https://github.com/Dashlane/node-http-proxy.git
+https://github.com/Dashlane/node-not-bin.git
+https://github.com/Dashlane/zxcvbn.git
+https://github.com/Dashlane/redux-cursor.git
+https://github.com/Dashlane/argon2-browser.git
+https://github.com/Dashlane/pqc.js.git
+https://github.com/Dashlane/react-multiple-sticky.git
+https://github.com/Dashlane/ts-event-bus.git
+https://github.com/Dashlane/dbt-invoke.git
+https://github.com/Dashlane/.github.git
+https://github.com/Dashlane/apple-apps.git
+https://github.com/Dashlane/android-apps.git
+https://github.com/Dashlane/SwiftDomainParser.git
+https://github.com/Dashlane/password-changer-well-known.git
+https://github.com/Dashlane/SAWF.git
+https://github.com/Dashlane/we-are-hiring.git
+https://github.com/Dashlane/BijouJS.git
+https://github.com/Dashlane/openssl.git
+https://github.com/Dashlane/libu2f-host.git
+https://github.com/Dashlane/uprime.git
+https://github.com/Dashlane/node-find-glob.git
+https://github.com/Dashlane/json-c.git
+https://github.com/Dashlane/hidapi.git
+https://github.com/Dashlane/chainable-data-source.git
+https://github.com/Dashlane/sample-pull-requests.git
+https://github.com/Dashlane/StashAutoArchive.git
+https://github.com/Dashlane/SocketRocket.git
+
+# SnBox Repos
+https://github.com/sboxgame/templates.git
+https://github.com/sboxgame/issues.git
+
+# Valve Repos
+https://github.com/ValveSoftware/gamescope.git
+https://github.com/ValveSoftware/source-sdk-2013.git
+https://github.com/ValveSoftware/Proton.git
+https://github.com/ValveSoftware/wine.git
+https://github.com/ValveSoftware/dxvk.git
+https://github.com/ValveSoftware/halflife.git
+https://github.com/ValveSoftware/voglperf.git
+https://github.com/ValveSoftware/unity-xr-plugin.git
+https://github.com/ValveSoftware/steam-audio.git
+https://github.com/ValveSoftware/OpenXR-Canonical-Pose-Tool.git
+https://github.com/ValveSoftware/openvr.git
+https://github.com/ValveSoftware/eigen.git
+https://github.com/ValveSoftware/csgo-demoinfo.git
+https://github.com/ValveSoftware/Fossilize.git
+https://github.com/ValveSoftware/steam-devices.git
+https://github.com/ValveSoftware/Dota2-Gameplay.git
+https://github.com/ValveSoftware/csgo.git
+https://github.com/ValveSoftware/vkd3d.git
+https://github.com/ValveSoftware/steamvr_unity_plugin.git
+https://github.com/ValveSoftware/Source-1-Games.git
+https://github.com/ValveSoftware/GameNetworkingSockets.git
+https://github.com/ValveSoftware/steamlink-sdk.git
+https://github.com/ValveSoftware/steam-runtime.git
+https://github.com/ValveSoftware/Dota-2.git
+https://github.com/ValveSoftware/csgo-osx-linux.git
+https://github.com/ValveSoftware/openxr_engine_plugins.git
+https://github.com/ValveSoftware/libmysofa.git
+https://github.com/ValveSoftware/steam-for-linux.git
+https://github.com/ValveSoftware/steamvr_unreal_plugin.git
+https://github.com/ValveSoftware/embree.git
+https://github.com/ValveSoftware/ffts.git
+https://github.com/ValveSoftware/SteamVR-for-Linux.git
+https://github.com/ValveSoftware/Dota-Underlords.git
+https://github.com/ValveSoftware/steamos-compositor.git
+https://github.com/ValveSoftware/steamos_kernel.git
+https://github.com/ValveSoftware/IndexHardware.git
+https://github.com/ValveSoftware/Moondust.git
+https://github.com/ValveSoftware/Dota-2-Vulkan.git
+https://github.com/ValveSoftware/ArtifactDeckCode.git
+https://github.com/ValveSoftware/steamos_mesa.git
+https://github.com/ValveSoftware/tbb.git
+https://github.com/ValveSoftware/portal2.git
+https://github.com/ValveSoftware/the_lab_renderer.git
+https://github.com/ValveSoftware/SteamOS.git
+https://github.com/ValveSoftware/VR-Community-Bugs.git
+https://github.com/ValveSoftware/virtual_display.git
+https://github.com/ValveSoftware/ExoPlayer.git
+https://github.com/ValveSoftware/linux.git
+https://github.com/ValveSoftware/vogl.git
+https://github.com/ValveSoftware/driver_hydra.git
+https://github.com/ValveSoftware/ToGL.git
+https://github.com/ValveSoftware/steamworks-vr-api.git
 
 # balenaEtcher
 https://github.com/balena-io/etcher.git
