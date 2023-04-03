@@ -33,7 +33,7 @@ def main():
     # Clone or pull repo
     for repo in repoList:
         # Find repo name
-        repoName = repo.split('.git')[0].split('/')[-1]
+        repoName = repo.split('.git')[-1].split('/')[-1]
         logging.debug(f"Repo URL: \"{repo}\"")
         logging.debug(f"Repo Directory name: \"{repoName}\"")
         # Define directory 
