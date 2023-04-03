@@ -48,6 +48,10 @@ def main():
         repo = repo.remotes.origin
         repo.pull(progress=Progress())
         logging.info("Done pulling")
+        # Fetch
+        for remote in repo.remotes:
+            remote.fetch(progress=Progress())
+        logging.info("Done fetching")
     logging.info("End of Script")
 
 
