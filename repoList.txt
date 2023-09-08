@@ -2,7 +2,7 @@
 # Comment lines and newlines are ignored, everything else WILL be read
 
 # Example Repo
-https://github.com/BromTeque/bromchive.git
+#https://github.com/BromTeque/bromchive.git
 
 # Irony Mod Manager for Paradox Games
 https://github.com/bcssov/IronyModManager.git
